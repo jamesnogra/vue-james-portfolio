@@ -1,5 +1,5 @@
 <template>
-  <div class="links-container">
+  <div id="main-banner" class="links-container">
     <a class="link-items" href="#about">About</a>
     <a class="link-items" href="#face-mask-detection">Face Mask Detection</a>
     <a class="link-items" href="#taglish-sentiment-analyzer">Taglish Sentiment Analyzer</a>
