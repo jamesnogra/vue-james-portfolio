@@ -5,15 +5,9 @@
       <div class="two-divs-container">
         <div class="left-or-right-or-center">
           <div class="main-image-container">
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img1.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img2.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img3.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img4.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img5.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img6.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img7.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img8.jpg" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img9.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"  :key="'photo-img-'+index" v-for="(photo, index) in aboutPhotos">
+              <img :src="photo" />
+            </div>
           </div>
         </div>
         <div class="left-or-right-or-center">
@@ -33,7 +27,22 @@
 
 <script>
 export default {
-  name: 'About'
+  name: 'About',
+  data() {
+    return {
+      aboutPhotos: [
+          '/images/img1.jpg',
+          '/images/img2.jpg',
+          '/images/img3.jpg',
+          '/images/img4.jpg',
+          '/images/img5.jpg',
+          '/images/img6.jpg',
+          '/images/img7.jpg',
+          '/images/img8.jpg',
+          '/images/img9.jpg',
+      ]
+    }
+  }
 }
 </script>
 
