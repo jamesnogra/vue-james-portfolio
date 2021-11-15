@@ -48,9 +48,6 @@ export default {
   display: block;
   margin-bottom: 15px;
 }
-.research-links:hover {
-  background-color: #f1fcb8;
-}
 @media only screen and (max-width: 768px) {
   .image-container {
     width: 100%;

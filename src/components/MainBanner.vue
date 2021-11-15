@@ -34,5 +34,6 @@ export default {
 .link-items:hover {
   opacity: 1;
   color: #3b3b3b;
+  border-radius: 5px;
 }
 </style>

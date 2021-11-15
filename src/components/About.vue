@@ -5,15 +5,15 @@
       <div class="two-divs-container">
         <div class="left-or-right-or-center">
           <div class="main-image-container">
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img1.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img2.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img3.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img4.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img5.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img6.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img7.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img8.png" /></div>
-            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img9.png" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img1.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img2.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img3.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img4.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img5.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img6.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img7.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img8.jpg" /></div>
+            <div alt="James Arnold Nogra" class="image-container"><img src="/images/img9.jpg" /></div>
           </div>
         </div>
         <div class="left-or-right-or-center">

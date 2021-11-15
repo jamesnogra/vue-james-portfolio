@@ -60,6 +60,9 @@ a {
   text-decoration-thickness: 4px;
   text-decoration-color: #d7f542;
 }
+a:hover {
+  background-color: #f1fcb8;
+}
 html, body {
   margin: 0px;
 }
