@@ -10,6 +10,9 @@
     <TopicContainer bgColor="#fffcde">
       <TaglishSentimentAnalyzer />
     </TopicContainer>
+    <TopicContainer bgColor="#fbffcc">
+      <BaybayinHandwritingRecognition />
+    </TopicContainer>
   </div>
 </template>
 
@@ -19,6 +22,7 @@ import TopicContainer from './components/TopicContainer.vue'
 import About from './components/About.vue'
 import FaceMaskUsage from './components/FaceMaskUsage.vue'
 import TaglishSentimentAnalyzer from './components/TaglishSentimentAnalyzer.vue'
+import BaybayinHandwritingRecognition from './components/BaybayinHandwritingRecognition.vue'
 
 export default {
   name: 'App',
@@ -28,6 +32,7 @@ export default {
     About,
     FaceMaskUsage,
     TaglishSentimentAnalyzer,
+    BaybayinHandwritingRecognition,
   },
 }
 </script>
