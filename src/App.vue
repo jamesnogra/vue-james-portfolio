@@ -16,6 +16,9 @@
     <TopicContainer bgColor="#fffcde">
       <WebDevelopment />
     </TopicContainer>
+    <TopicContainer bgColor="#fbffcc">
+      <ResearchPublications />
+    </TopicContainer>
   </div>
 </template>
 
@@ -27,6 +30,7 @@ import FaceMaskUsage from './components/FaceMaskUsage.vue'
 import TaglishSentimentAnalyzer from './components/TaglishSentimentAnalyzer.vue'
 import BaybayinHandwritingRecognition from './components/BaybayinHandwritingRecognition.vue'
 import WebDevelopment from './components/WebDevelopment.vue'
+import ResearchPublications from './components/ResearchPublications.vue'
 
 export default {
   name: 'App',
@@ -38,6 +42,7 @@ export default {
     TaglishSentimentAnalyzer,
     BaybayinHandwritingRecognition,
     WebDevelopment,
+    ResearchPublications
   },
 }
 </script>
