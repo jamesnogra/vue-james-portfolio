@@ -13,6 +13,9 @@
     <TopicContainer bgColor="#fbffcc">
       <BaybayinHandwritingRecognition />
     </TopicContainer>
+    <TopicContainer bgColor="#fffcde">
+      <WebDevelopment />
+    </TopicContainer>
   </div>
 </template>
 
@@ -23,6 +26,7 @@ import About from './components/About.vue'
 import FaceMaskUsage from './components/FaceMaskUsage.vue'
 import TaglishSentimentAnalyzer from './components/TaglishSentimentAnalyzer.vue'
 import BaybayinHandwritingRecognition from './components/BaybayinHandwritingRecognition.vue'
+import WebDevelopment from './components/WebDevelopment.vue'
 
 export default {
   name: 'App',
@@ -33,6 +37,7 @@ export default {
     FaceMaskUsage,
     TaglishSentimentAnalyzer,
     BaybayinHandwritingRecognition,
+    WebDevelopment,
   },
 }
 </script>
