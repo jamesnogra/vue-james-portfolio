@@ -29,6 +29,17 @@ export default {
 .fixed-links {
   margin-right: 10px;
 }
+@media only screen and (max-width: 768px) {
+  .back-to-top {
+    text-align: center;
+    font-size: x-small;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #f7f2c3;
+    padding: 5px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .topic-container {
     height: 100vh;
